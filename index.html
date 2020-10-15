@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Good Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="shotrcut icon" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Roman Pazyuk">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" >Головна</a></li>
+            <li><a href="#about" >Про нас</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#expert" >Мастер Шеф</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Ресторан - це як театр. Наше завдання - здивувати, вразити, розважити вас ...</p>
+            <a href="#" class="btn">Наше Меню</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2><span>П</span>ро нас</h2>
+                <p>Не знаєте, куди піти у Львові?</p>
+                <p>
+                    Одним з кращих місць для відпочинку Львова є ресторан Good Food.
+                    Вперше ресторан гостинно відкрив свої двері для відвідувачів 10 серпня 2002 року
+                    завдяки спільним зусиллям команди професіоналів високого рівня. З першого дня і
+                    до сьогодні ресторан Good Food радує своїх гостей розкішшю, оригінальними дизайнерськими
+                    інтер'єрами, бездоганним сервісом,згуртованою працею команди,
+                    вишуканістю кухні і захоплюючими шоу-програмами.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="img">
+                    <img src="img/img1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="titleMenu">
+            <h2><span>М</span>еню</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="img">
+                    <img src="img/menu1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Салат</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/menu2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Суп</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/menu3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special ді Паста</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/menu4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Spring Салат</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/menu5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Суп-пюре</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/menu6.jpg">
+                </div>
+                <div class="text">
+                    <h3>Green Salad</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="expert" id="expert">
+        <div class="titleMenu">
+            <h2><span>М</span>астер Шеф</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="img">
+                    <img src="img/expert1.jpg" loading="lazy">
+                </div>
+                <div class="text">
+                    <h3>Гордон Ремзі</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/expert2.jpg" loading="lazy">
+                </div>
+                <div class="text">
+                    <h3>Гестон Блюменшталь</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/expert3.jpg" loading="lazy">
+                </div>
+                <div class="text">
+                    <h3>Роксолана Лоустон</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img">
+                    <img src="img/expert4.jpg" loading="lazy">
+                </div>
+                <div class="text">
+                    <h3>Поул Бокюз</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="titleMenu">
+            <h2><span>К</span>онтакти</h2>
+        </div>
+        <div class="contactForm">
+            <h3>Contact <span>U</span>s</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name" maxlength="15" autocomplete="off" />
+            </div>
+            <div class="inputBox">
+                <input type="email" placeholder="Email" maxlength="25" autocomplete="off" />
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Text"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send"/>
+            </div>
+        </div>
+    </section> 
+    <footer>
+        <div class="copyRight">
+            <p>Copyright 2020. All right Reserved</p>
+        </div>
+    </footer>
+        <script src="js/index.js"></script>
+</body>
+</html>
